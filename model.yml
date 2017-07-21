@@ -1,0 +1,8 @@
+!!omap
+- reactions: []
+- metabolites: []
+- genes: []
+- id: Test
+- name: Test
+- compartments: {}
+- version: '1'
