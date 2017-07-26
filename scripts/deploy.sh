@@ -5,7 +5,7 @@ set -e # exit with nonzero exit code if anything fails
 
 source_branch="master"
 
-if [[ "${TRAVIS_PULL_REQUEST}" != "false" || "${TRAVIS_BRANCH}" != "${source_branch}" || "${TRAVIS_REPO_SLUG}" != "ChristianLieven/test" ]]; then
+if [[ "${TRAVIS_PULL_REQUEST}" != "false" || "${TRAVIS_BRANCH}" != "${source_branch}" || "${TRAVIS_REPO_SLUG}" != "ChristianLieven/memote-demo" ]]; then
     echo "Skip deploy."
     exit 0
 else
