@@ -18,6 +18,95 @@
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
+    - objective_coefficient: 1.0
+  - !!omap
+    - id: EX_ash_c
+    - name: ''
+    - metabolites: !!omap
+      - ash_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_rna_c
+    - name: ''
+    - metabolites: !!omap
+      - rna_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_cellwall_c
+    - name: ''
+    - metabolites: !!omap
+      - cellwall_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_atp_c
+    - name: ''
+    - metabolites: !!omap
+      - atp_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_dna_c
+    - name: ''
+    - metabolites: !!omap
+      - dna_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_adp_c
+    - name: ''
+    - metabolites: !!omap
+      - adp_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_h_c
+    - name: ''
+    - metabolites: !!omap
+      - h_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_protein_c
+    - name: ''
+    - metabolites: !!omap
+      - protein_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_h2o_c
+    - name: ''
+    - metabolites: !!omap
+      - h2o_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_pi_c
+    - name: ''
+    - metabolites: !!omap
+      - pi_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_lipid_c
+    - name: ''
+    - metabolites: !!omap
+      - lipid_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
 - metabolites:
   - !!omap
     - id: ash_c
