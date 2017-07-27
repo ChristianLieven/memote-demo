@@ -107,6 +107,96 @@
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
+  - !!omap
+    - id: RXN1
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN10
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN2
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN3
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN4
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN5
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN6
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN7
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN8
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
+  - !!omap
+    - id: RXN9
+    - name: ''
+    - metabolites: !!omap
+      - met1: 1.0
+      - met2: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: gene1 or gene2
 - metabolites:
   - !!omap
     - id: adp_c
@@ -317,6 +407,14 @@
         - CHEBI:86354
         - CHEBI:8685
   - !!omap
+    - id: met1
+    - name: ''
+    - compartment: ''
+  - !!omap
+    - id: met2
+    - name: ''
+    - compartment: ''
+  - !!omap
     - id: pi_c
     - name: ''
     - compartment: ''
@@ -394,7 +492,13 @@
         - CHEBI:45253
         - CHEBI:86354
         - CHEBI:8685
-- genes: []
+- genes:
+  - !!omap
+    - id: gene1
+    - name: gene1
+  - !!omap
+    - id: gene2
+    - name: gene2
 - id: Test
 - name: Test
 - compartments: {}
