@@ -113,46 +113,235 @@
     - name: ''
     - compartment: ''
     - formula: C10H12N5O10P2
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: ash_c
     - name: ''
     - compartment: ''
     - formula: H80
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: atp_c
     - name: ''
     - compartment: ''
     - formula: C10H12N5O13P3
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: cellwall_c
     - name: ''
     - compartment: ''
     - formula: H177
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: dna_c
     - name: ''
     - compartment: ''
     - formula: H483
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: h2o_c
     - name: ''
     - compartment: ''
     - formula: H2O
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: h_c
     - name: ''
     - compartment: ''
     - formula: H
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: lipid_c
     - name: ''
     - compartment: ''
     - formula: H744
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: pi_c
     - name: ''
     - compartment: ''
     - formula: HO4P
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
   - !!omap
     - id: protein_c
     - name: ''
@@ -184,6 +373,27 @@
     - name: ''
     - compartment: ''
     - formula: H496
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
 - genes: []
 - id: Test
 - name: Test

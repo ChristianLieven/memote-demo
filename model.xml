@@ -24,13 +24,216 @@
     </listOfParameters>
     <listOfCompartments />
     <listOfSpecies>
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_ash_c" fbc:chemicalFormula="H80" />
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_rna_c" fbc:chemicalFormula="H496" />
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cellwall_c" fbc:chemicalFormula="H177" />
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_atp_c" fbc:chemicalFormula="C10H12N5O13P3" />
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_dna_c" fbc:chemicalFormula="H483" />
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_adp_c" fbc:chemicalFormula="C10H12N5O10P2" />
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_h_c" fbc:chemicalFormula="H" />
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_ash_c" metaid="M_ash_c" fbc:chemicalFormula="H80">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_ash_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_rna_c" metaid="M_rna_c" fbc:chemicalFormula="H496">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_rna_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_cellwall_c" metaid="M_cellwall_c" fbc:chemicalFormula="H177">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_cellwall_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_atp_c" metaid="M_atp_c" fbc:chemicalFormula="C10H12N5O13P3">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_atp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_dna_c" metaid="M_dna_c" fbc:chemicalFormula="H483">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_dna_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_adp_c" metaid="M_adp_c" fbc:chemicalFormula="C10H12N5O10P2">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_adp_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_h_c" metaid="M_h_c" fbc:chemicalFormula="H">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_h_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
       <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_protein_c" metaid="M_protein_c" fbc:chemicalFormula="H119">
         <sbml:annotation>
           <rdf:RDF>
@@ -61,9 +264,96 @@
           </rdf:RDF>
         </sbml:annotation>
       </species>
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_h2o_c" fbc:chemicalFormula="H2O" />
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_pi_c" fbc:chemicalFormula="HO4P" />
-      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_lipid_c" fbc:chemicalFormula="H744" />
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_h2o_c" metaid="M_h2o_c" fbc:chemicalFormula="H2O">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_h2o_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_pi_c" metaid="M_pi_c" fbc:chemicalFormula="HO4P">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_pi_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
+      <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" id="M_lipid_c" metaid="M_lipid_c" fbc:chemicalFormula="H744">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#M_lipid_c">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/pyr" />
+                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:PYRUVATE" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:14987" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:15361" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26462" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:26466" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:32816" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:45253" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:86354" />
+                  <rdf:li rdf:resource="http://identifiers.org/chebi/CHEBI:8685" />
+                  <rdf:li rdf:resource="http://identifiers.org/hmdb/HMDB00243" />
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/LCTONWCANYUPML-UHFFFAOYSA-M" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00022" />
+                  <rdf:li rdf:resource="http://identifiers.org/metanetx.chemical/MNXM23" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-113557" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-29398" />
+                  <rdf:li rdf:resource="http://identifiers.org/reactome/R-ALL-389680" />
+                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd00020" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </species>
     </listOfSpecies>
     <listOfReactions>
       <reaction fast="false" id="R_BIOMASS_TEST" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
