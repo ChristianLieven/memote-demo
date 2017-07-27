@@ -20,26 +20,18 @@
     - gene_reaction_rule: ''
     - objective_coefficient: 1.0
   - !!omap
+    - id: EX_adp_c
+    - name: ''
+    - metabolites: !!omap
+      - adp_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
     - id: EX_ash_c
     - name: ''
     - metabolites: !!omap
       - ash_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-  - !!omap
-    - id: EX_rna_c
-    - name: ''
-    - metabolites: !!omap
-      - rna_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-  - !!omap
-    - id: EX_cellwall_c
-    - name: ''
-    - metabolites: !!omap
-      - cellwall_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -52,34 +44,18 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
   - !!omap
+    - id: EX_cellwall_c
+    - name: ''
+    - metabolites: !!omap
+      - cellwall_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
     - id: EX_dna_c
     - name: ''
     - metabolites: !!omap
       - dna_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-  - !!omap
-    - id: EX_adp_c
-    - name: ''
-    - metabolites: !!omap
-      - adp_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-  - !!omap
-    - id: EX_h_c
-    - name: ''
-    - metabolites: !!omap
-      - h_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: ''
-  - !!omap
-    - id: EX_protein_c
-    - name: ''
-    - metabolites: !!omap
-      - protein_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -92,10 +68,10 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
   - !!omap
-    - id: EX_pi_c
+    - id: EX_h_c
     - name: ''
     - metabolites: !!omap
-      - pi_c: -1.0
+      - h_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -107,62 +83,107 @@
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_pi_c
+    - name: ''
+    - metabolites: !!omap
+      - pi_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_protein_c
+    - name: ''
+    - metabolites: !!omap
+      - protein_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: EX_rna_c
+    - name: ''
+    - metabolites: !!omap
+      - rna_c: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
 - metabolites:
-  - !!omap
-    - id: ash_c
-    - name: ''
-    - compartment: ''
-    - formula: H80
-  - !!omap
-    - id: rna_c
-    - name: ''
-    - compartment: ''
-    - formula: H496
-  - !!omap
-    - id: cellwall_c
-    - name: ''
-    - compartment: ''
-    - formula: H177
-  - !!omap
-    - id: atp_c
-    - name: ''
-    - compartment: ''
-    - formula: C10H12N5O13P3
-  - !!omap
-    - id: dna_c
-    - name: ''
-    - compartment: ''
-    - formula: H483
   - !!omap
     - id: adp_c
     - name: ''
     - compartment: ''
     - formula: C10H12N5O10P2
   - !!omap
-    - id: h_c
+    - id: ash_c
     - name: ''
     - compartment: ''
-    - formula: H
+    - formula: H80
   - !!omap
-    - id: protein_c
+    - id: atp_c
     - name: ''
     - compartment: ''
-    - formula: H119
+    - formula: C10H12N5O13P3
+  - !!omap
+    - id: cellwall_c
+    - name: ''
+    - compartment: ''
+    - formula: H177
+  - !!omap
+    - id: dna_c
+    - name: ''
+    - compartment: ''
+    - formula: H483
   - !!omap
     - id: h2o_c
     - name: ''
     - compartment: ''
     - formula: H2O
   - !!omap
-    - id: pi_c
+    - id: h_c
     - name: ''
     - compartment: ''
-    - formula: HO4P
+    - formula: H
   - !!omap
     - id: lipid_c
     - name: ''
     - compartment: ''
     - formula: H744
+  - !!omap
+    - id: pi_c
+    - name: ''
+    - compartment: ''
+    - formula: HO4P
+  - !!omap
+    - id: protein_c
+    - name: ''
+    - compartment: ''
+    - formula: H119
+    - annotation:
+        inchikey: LCTONWCANYUPML-UHFFFAOYSA-M
+        biocyc: META:PYRUVATE
+        metanetx.chemical: MNXM23
+        bigg.metabolite: pyr
+        seed.compound: cpd00020
+        kegg.compound: C00022
+        hmdb: HMDB00243
+        reactome:
+        - R-ALL-113557
+        - R-ALL-29398
+        - R-ALL-389680
+        chebi:
+        - CHEBI:14987
+        - CHEBI:15361
+        - CHEBI:26462
+        - CHEBI:26466
+        - CHEBI:32816
+        - CHEBI:45253
+        - CHEBI:86354
+        - CHEBI:8685
+  - !!omap
+    - id: rna_c
+    - name: ''
+    - compartment: ''
+    - formula: H496
 - genes: []
 - id: Test
 - name: Test
