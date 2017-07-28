@@ -66,103 +66,201 @@
 
         <div id="content"><md-content layout="row" class="md-padding" layout-xs="column">
         <div layout="column" flex>
-            <md-card flex>
-                <md-card-title>
-                    <span class="md-headline">Basic Information</span>
-                </md-card-title>
+            <md-card ng-app>
+        <md-card-title>
+            <span class="md-headline">Basic Information</span>
+        </md-card-title>
 
-                <md-tabs md-dynamic-height>
-                    <md-tab id="tab_0">
-                        <md-tab-label>
-                           Genes
-                        </md-tab-label>
-                        <md-tab-body>
-                            <div id="plotDiv" style="width: 500px; height: 500px">
-                                <div id="cba8e9bd-add8-4c78-af23-4974d8aa197e" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("cba8e9bd-add8-4c78-af23-4974d8aa197e", [{"type": "scatter", "x": ["2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "y": [0, 0, 0, 0, 2]}], {"height": 500, "yaxis": {"title": "Number of Genes"}, "xaxis": {"tickangle": 0, "title": "Timestamp", "zeroline": true}, "width": 650}, {"showLink": false, "linkText": ""})</script>
-                            </div>
-                        </md-tab-body>
-                    </md-tab>
-                    <md-tab id="tab_1">
-                        <md-tab-label>
-                           Reactions
-                        </md-tab-label>
-                        <md-tab-body>
-                            <div id="aa12864a-4233-4fe9-86bf-da8493bb0361" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("aa12864a-4233-4fe9-86bf-da8493bb0361", [{"type": "scatter", "x": ["2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "y": [1, 12, 12, 12, 22]}], {"height": 500, "yaxis": {"title": "Number of Reactions"}, "xaxis": {"tickangle": 0, "title": "Timestamp", "zeroline": true}, "width": 650}, {"showLink": false, "linkText": ""})</script>
-                        </md-tab-body>
-                    </md-tab>
-                    <md-tab id="tab_2">
-                        <md-tab-label>
-                           Metabolites
-                        </md-tab-label>
-                        <md-tab-body>
-                            <div id="d444fd72-a213-405b-8557-5ee3fc69081e" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("d444fd72-a213-405b-8557-5ee3fc69081e", [{"type": "scatter", "x": ["2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "y": [11, 11, 11, 11, 13]}], {"height": 500, "yaxis": {"title": "Number of Metabolites"}, "xaxis": {"tickangle": 0, "title": "Timestamp", "zeroline": true}, "width": 650}, {"showLink": false, "linkText": ""})</script>
-                        </md-tab-body>
-                    </md-tab>
-                    <md-tab id="tab_3">
-                        <md-tab-label>
-                           Metabolites no formula
-                        </md-tab-label>
-                        <md-tab-body>
-                            <div id="cd28e1d3-71ed-4df7-8a7d-afd9b7ef1e52" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("cd28e1d3-71ed-4df7-8a7d-afd9b7ef1e52", [{"type": "scatter", "x": ["2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "y": [0, 0, 0, 0, 2]}], {"height": 500, "yaxis": {"title": "Number of Metabolites Without Formula"}, "xaxis": {"tickangle": 0, "title": "Timestamp", "zeroline": true}, "width": 650}, {"showLink": false, "linkText": ""})</script>
-                        </md-tab-body>
-                    </md-tab>
-                </md-tabs>
-            </md-card>
+        <md-tabs md-dynamic-height>
+        
+            <md-tab id="tab_genes_1">
+                <md-tab-label>
+                    genes
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="4816da2f-c1f0-4720-bce5-e35a9a092550" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("4816da2f-c1f0-4720-bce5-e35a9a092550", [{"y": [0, 0, 0, 0, 0, 2], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Genes"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_metabolites_2">
+                <md-tab-label>
+                    metabolites
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="9543c76a-7294-4a61-8f15-49b6fc834707" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("9543c76a-7294-4a61-8f15-49b6fc834707", [{"y": [11, 11, 11, 11, 11, 13], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Metabolites"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_metabolites_no_charge_3">
+                <md-tab-label>
+                    metabolites_no_charge
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="ae16b5ab-8812-438d-942d-00d4f4cd0fb7" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("ae16b5ab-8812-438d-942d-00d4f4cd0fb7", [{"y": [11, 11, 11, 11, 11, 13], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Metabolites Without Charge"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_metabolites_no_formula_4">
+                <md-tab-label>
+                    metabolites_no_formula
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="2e8ad15c-0721-4648-a8e8-aaba713b0467" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("2e8ad15c-0721-4648-a8e8-aaba713b0467", [{"y": [0, 0, 0, 0, 0, 2], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Metabolites Without Formula"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_ngam_reaction_5">
+                <md-tab-label>
+                    ngam_reaction
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="bab30a96-8425-4880-8f62-63da0fee1920" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("bab30a96-8425-4880-8f62-63da0fee1920", [{"y": [[], [], [], [], [], []], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Non-growth-associated Maintenance Reactions"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_reactions_6">
+                <md-tab-label>
+                    reactions
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="beba7aa8-24a5-41b8-8154-4ee9396e70f9" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("beba7aa8-24a5-41b8-8154-4ee9396e70f9", [{"y": [1, 1, 12, 12, 12, 22], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Reactions"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_reactions_no_GPR_7">
+                <md-tab-label>
+                    reactions_no_GPR
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="8ad4704a-3e3b-464c-a808-4b73e6d93618" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("8ad4704a-3e3b-464c-a808-4b73e6d93618", [{"y": [1, 1, 1, 1, 1, 1], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Reactions Without GPR Rule"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+        </md-tabs>
+    </md-card>
 
-            <md-card flex>
+            <md-card ng-app>
+        <md-card-title>
+            <span class="md-headline">Stoichiometric Consistency</span>
+        </md-card-title>
+
+        <md-tabs md-dynamic-height>
+        
+            <md-tab id="tab_blocked_reactions_1">
+                <md-tab-label>
+                    blocked_reactions
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="080f473f-2aa9-4186-928f-05cd17813bfa" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("080f473f-2aa9-4186-928f-05cd17813bfa", [{"y": [1, 1, 0, 0, 0, 10], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Blocked Reactions"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_imbalanced_reactions_2">
+                <md-tab-label>
+                    imbalanced_reactions
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="c111bcd8-48f9-4073-9e67-7b8c2bcc9dc3" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("c111bcd8-48f9-4073-9e67-7b8c2bcc9dc3", [{"y": [0, 0, 0, 0, 0, 0], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Imbalanced Reactions"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_is_consistent_3">
+                <md-tab-label>
+                    is_consistent
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="5ca60f01-81cf-48c6-9070-f85b7dcab766" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("5ca60f01-81cf-48c6-9070-f85b7dcab766", [{"y": [1, 1, 1, 1, 1, 1], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"ticktext": ["No", "Yes"], "tickvals": [0, 1], "tickmode": "array", "title": "Is Stoichiometrically Consistent", "zeroline": false}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_magic_atp_production_4">
+                <md-tab-label>
+                    magic_atp_production
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="ff1139e1-747d-43b9-9d75-c664312fdcf4" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("ff1139e1-747d-43b9-9d75-c664312fdcf4", [{"y": [0, 0, 0, 0, 0, 0], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"ticktext": ["No", "Yes"], "tickvals": [0, 1], "tickmode": "array", "title": "Has Magic ATP Production", "zeroline": false}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_unconserved_metabolites_5">
+                <md-tab-label>
+                    unconserved_metabolites
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="4f070e91-fa56-4665-b523-168f09e64598" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("4f070e91-fa56-4665-b523-168f09e64598", [{"y": [0, 0, 0, 0, 0, 0], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Unconserved Metabolites"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+        </md-tabs>
+    </md-card>
+
+
+            <md-card ng-app>
                 <md-card-title>
                     <span class="md-headline">Syntax Information</span>
                 </md-card-title>
             </md-card>
         </div>
-
         <div layout="column" flex>
-            <md-card flex>
+            <md-card ng-app>
+        <md-card-title>
+            <span class="md-headline">Biomass Production</span>
+        </md-card-title>
+
+        <md-tabs md-dynamic-height>
+        
+            <md-tab id="tab_biomass_default_flux_1">
+                <md-tab-label>
+                    biomass_default_flux
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="236f2d4a-e01a-444a-bec5-1ecb9da5dacf" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("236f2d4a-e01a-444a-bec5-1ecb9da5dacf", [{"y": [0.0, 0.0, 33.333333333333336, 33.333333333333336, 33.333333333333336, 33.333333333333336], "name": "BIOMASS_TEST", "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "$ \\text{Biomass Flux }[ \\text{mmol} \\text{g}_{\\text{DW}}^{-1}  \\text{h}^{-1} ] $"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_biomass_sum_2">
+                <md-tab-label>
+                    biomass_sum
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="c07dd657-bb8d-4dbb-ad5d-4722e32901df" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("c07dd657-bb8d-4dbb-ad5d-4722e32901df", [{"y": [1.0000338194339986, 1.0000338194340015, 1.0000338194339997, 1.0000338194340015, 1.0000338194340017, 1.0000338194340004], "name": "BIOMASS_TEST", "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "$ \\text{Sum of Biomass Components }[ \\text{mmol} \\text{g}_{\\text{DW}}^{-1}  \\text{h}^{-1} ] $"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_gam_in_biomass_3">
+                <md-tab-label>
+                    gam_in_biomass
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="e5ee2a94-138c-4715-9c61-27eae11d0a04" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("e5ee2a94-138c-4715-9c61-27eae11d0a04", [{"y": [0, 0, 0, 0, 0, 0], "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"ticktext": ["No", "Yes"], "tickvals": [0, 1], "tickmode": "array", "title": "Biomass Contains Growth-associated Maintenance", "zeroline": false}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_num_default_blocked_precursors_4">
+                <md-tab-label>
+                    num_default_blocked_precursors
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="20aacfdb-11ae-4435-a46e-af03b6f8a425" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("20aacfdb-11ae-4435-a46e-af03b6f8a425", [{"y": [8, 8, 0, 0, 0, 0], "name": "BIOMASS_TEST", "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Blocked Biomass Precursors in Default Medium"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+            <md-tab id="tab_num_open_blocked_precursors_5">
+                <md-tab-label>
+                    num_open_blocked_precursors
+                </md-tab-label>
+                <md-tab-body>
+                    <div id="4828d3b3-292c-43b9-b7d9-e12072734904" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("4828d3b3-292c-43b9-b7d9-e12072734904", [{"y": [8, 8, 0, 0, 0, 0], "name": "BIOMASS_TEST", "x": ["2017-07-26 16:07:47", "2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"], "type": "scatter"}], {"height": 500, "width": 650, "yaxis": {"title": "Number of Blocked Biomass Precursors in Complete Medium"}, "xaxis": {"tickangle": 0, "title": "Timestamp"}}, {"showLink": false, "linkText": ""})</script>
+                </md-tab-body>
+            </md-tab>
+        
+        </md-tabs>
+    </md-card>
+
+
+            <md-card ng-app>
                 <md-card-title>
-                    <span class="md-headline">Biomass Production</span>
-                </md-card-title>
-                <md-tabs md-dynamic-height>
-                    <md-tab id="tab_0">
-                        <md-tab-label>
-                           Biomass Sum
-                        </md-tab-label>
-                        <md-tab-body>
-                            <md-content>
-                                <div id="plot">
-                                    <div id="4c186498-4e1e-41af-a991-95dee96e1caf" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("4c186498-4e1e-41af-a991-95dee96e1caf", [{"type": "scatter", "name": "BIOMASS_TEST", "y": [1.0000338194339995, 1.000033819433997, 1.0000338194339988, 1.000033819433997, 1.000033819434001], "x": ["2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"]}], {"height": 500, "yaxis": {"title": "$ \\text{Sum of Biomass Components }[ \\text{mmol} \\text{g}_{\\text{DW}}^{-1}  \\text{h}^{-1} ] $"}, "xaxis": {"tickangle": 0, "title": "Timestamp", "zeroline": true}, "width": 650}, {"showLink": false, "linkText": ""})</script>
-                                </div>
-                            </md-content>
-                        </md-tab-body>
-                    </md-tab>
-                    <md-tab id="tab_1">
-                        <md-tab-label>
-                           Biomass Default Flux
-                        </md-tab-label>
-                        <md-tab-body>
-                            <div id="74ccfb33-b0d7-4bd7-9776-f0de2b92db7f" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("74ccfb33-b0d7-4bd7-9776-f0de2b92db7f", [{"type": "scatter", "name": "BIOMASS_TEST", "y": [0.0, 33.333333333333336, 33.333333333333336, 33.333333333333336, 33.333333333333336], "x": ["2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"]}], {"height": 500, "yaxis": {"title": "$ \\text{Biomass Flux }[ \\text{mmol} \\text{g}_{\\text{DW}}^{-1}  \\text{h}^{-1} ] $"}, "xaxis": {"tickangle": 0, "title": "Timestamp", "zeroline": true}, "width": 650}, {"showLink": false, "linkText": ""})</script>
-                        </md-tab-body>
-                    </md-tab>
-                    <md-tab id="tab_2">
-                        <md-tab-label>
-                           Num Default Blocked Precursors
-                        </md-tab-label>
-                        <md-tab-body>
-                            <div id="19aa9a20-e300-4048-9deb-1b1e29a2db71" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("19aa9a20-e300-4048-9deb-1b1e29a2db71", [{"type": "scatter", "name": "BIOMASS_TEST", "y": [8, 0, 0, 0, 0], "x": ["2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"]}], {"height": 500, "yaxis": {"title": "Number of Blocked Biomass Precursors in Default Medium"}, "xaxis": {"tickangle": 0, "title": "Timestamp", "zeroline": true}, "width": 650}, {"showLink": false, "linkText": ""})</script>
-                        </md-tab-body>
-                    </md-tab>
-                    <md-tab id="tab_3">
-                        <md-tab-label>
-                           Num Open Blocked Precursors
-                        </md-tab-label>
-                        <md-tab-body>
-                            <div id="42bc0146-f1fc-446f-9584-9c91f060bd83" style="height: 500px; width: 650px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("42bc0146-f1fc-446f-9584-9c91f060bd83", [{"type": "scatter", "name": "BIOMASS_TEST", "y": [8, 0, 0, 0, 0], "x": ["2017-07-26 16:47:25", "2017-07-27 20:06:43", "2017-07-27 21:09:05", "2017-07-27 21:16:34", "2017-07-27 21:28:05"]}], {"height": 500, "yaxis": {"title": "Number of Blocked Biomass Precursors in Complete Medium"}, "xaxis": {"tickangle": 0, "title": "Timestamp", "zeroline": true}, "width": 650}, {"showLink": false, "linkText": ""})</script>
-                        </md-tab-body>
-                    </md-tab>
-                </md-tabs>
-            </md-card>
-            <md-card flex>
-                <md-card-title>
-                    <span class="md-headline">Stoichiometric Consistency</span>
+                    <span class="md-headline">Annotation Information</span>
                 </md-card-title>
             </md-card>
         </div>
