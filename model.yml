@@ -26,7 +26,7 @@
       - adp_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_ash_c
     - name: ''
@@ -34,7 +34,7 @@
       - ash_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_atp_c
     - name: ''
@@ -42,7 +42,7 @@
       - atp_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_cellwall_c
     - name: ''
@@ -50,7 +50,7 @@
       - cellwall_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_dna_c
     - name: ''
@@ -58,7 +58,7 @@
       - dna_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_h2o_c
     - name: ''
@@ -66,7 +66,7 @@
       - h2o_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_h_c
     - name: ''
@@ -74,7 +74,7 @@
       - h_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_lipid_c
     - name: ''
@@ -82,7 +82,7 @@
       - lipid_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_pi_c
     - name: ''
@@ -90,7 +90,7 @@
       - pi_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_protein_c
     - name: ''
@@ -98,7 +98,7 @@
       - protein_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: EX_rna_c
     - name: ''
@@ -106,7 +106,7 @@
       - rna_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: ''
+    - gene_reaction_rule: some_gene
   - !!omap
     - id: RXN1
     - name: ''
@@ -499,6 +499,9 @@
   - !!omap
     - id: gene2
     - name: gene2
+  - !!omap
+    - id: some_gene
+    - name: some_gene
 - id: Test
 - name: Test
 - compartments: {}

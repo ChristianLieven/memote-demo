@@ -360,6 +360,7 @@
     <fbc:listOfGeneProducts>
       <fbc:geneProduct fbc:id="G_gene2" fbc:label="gene2" fbc:name="gene2" />
       <fbc:geneProduct fbc:id="G_gene1" fbc:label="gene1" fbc:name="gene1" />
+      <fbc:geneProduct fbc:id="G_some_gene" fbc:label="some_gene" fbc:name="some_gene" />
     </fbc:listOfGeneProducts>
     <listOfReactions>
       <reaction fast="false" id="R_BIOMASS_TEST" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -383,56 +384,89 @@
         <listOfReactants>
           <speciesReference constant="true" species="M_ash_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_rna_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_rna_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_cellwall_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_cellwall_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_atp_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_atp_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_dna_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_dna_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_adp_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_adp_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_h_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_h_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_protein_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_protein_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_h2o_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_pi_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_pi_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_EX_lipid_c" reversible="true" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_lipid_c" stoichiometry="1" />
         </listOfReactants>
+        <fbc:geneProductAssociation>
+          <fbc:geneProductRef fbc:geneProduct="G_some_gene" />
+        </fbc:geneProductAssociation>
       </reaction>
       <reaction fast="false" id="R_RXN1" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
